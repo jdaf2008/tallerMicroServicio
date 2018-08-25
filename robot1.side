@@ -1,0 +1,101 @@
+{
+  "id": "591730e0-e19d-4be7-9ceb-f4276413fb94",
+  "name": "robot1",
+  "url": "http://10.20.151.125:9080",
+  "tests": [{
+    "id": "59cc18f7-49c6-4b26-8dde-d97cd832ea29",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4f5b4c57-df3d-49d0-8128-e0322da5f5e6",
+      "comment": "",
+      "command": "open",
+      "target": "/customerDB/webresources/cargartarjeta.tarjetas/1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85088724-1cec-40e0-bfea-b1555a448933",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=span.text",
+      "targets": [
+        ["css=span.text", "css"]
+      ],
+      "value": "3,7"
+    }, {
+      "id": "400ac36e-3d29-4206-b3ef-d12bedae4640",
+      "comment": "",
+      "command": "open",
+      "target": "/customerDB/webresources/cargartarjeta.tarjetas/2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b9c6685-82cc-4608-bfa8-da6e68d3018f",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=span.text",
+      "targets": [
+        ["css=span.text", "css"]
+      ],
+      "value": "4,6"
+    }, {
+      "id": "844bf0b0-fb29-4189-a159-f80e62197880",
+      "comment": "",
+      "command": "open",
+      "target": "/customerDB/webresources/cargartarjeta.tarjetas/3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64c41090-decc-47cc-8a85-f5bda51feaf4",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=span.text",
+      "targets": [
+        ["css=span.text", "css"]
+      ],
+      "value": "1,5"
+    }, {
+      "id": "ca1c34fc-10d6-4f46-bafd-9a26aef763d5",
+      "comment": "",
+      "command": "open",
+      "target": "/customerDB/webresources/cargartarjeta.tarjetas/5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab301e5f-0a19-4a3b-a576-f0d0605acaff",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=span.text",
+      "targets": [
+        ["css=span.text", "css"]
+      ],
+      "value": "4,9"
+    }, {
+      "id": "680a3c60-12e7-4989-97af-3e3f785ca2fa",
+      "comment": "",
+      "command": "open",
+      "target": "/customerDB/webresources/cargartarjeta.tarjetas/6",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19775cff-8b19-488e-bd6e-da92bf1556b2",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=span.text",
+      "targets": [
+        ["css=span.text", "css"]
+      ],
+      "value": "6"
+    }]
+  }],
+  "suites": [{
+    "id": "e9449a9e-6ff2-4fb4-b9c6-4af109ac7f8a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["59cc18f7-49c6-4b26-8dde-d97cd832ea29"]
+  }],
+  "urls": ["http://10.20.151.125:9080/"],
+  "plugins": [],
+  "version": "1.0"
+}
